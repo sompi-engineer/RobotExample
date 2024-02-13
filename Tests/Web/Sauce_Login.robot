@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation               Example Robot Framework suite for automation tests against SauceDemo web page inventory
-Resource                    ../Data/InputData.robot
-Resource                    ../Resources/Common.robot
-Resource                    ../Resources/SauceApp.robot
+Resource                    ../../Data/InputData.robot
+Resource                    ../../Resources/Common.robot
+Resource                    ../../Resources/Web/SauceApp.robot
 Test Setup                  Common.Start Web Test
 Test Teardown               Common.Stop Web Test
 

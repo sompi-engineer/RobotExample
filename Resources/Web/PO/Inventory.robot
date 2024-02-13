@@ -3,7 +3,7 @@ Documentation       Inventory page functionality
 Library             SeleniumLibrary
 Library             Collections
 Library             String
-Library             ../../Data/CalcLibrary.py
+Library             ../../../Data/CalcLibrary.py
 
 *** Variables ***
 ${INVENTORY_NAVIGATION_ELEMENT} =               xpath=/*//span[text()='Products']

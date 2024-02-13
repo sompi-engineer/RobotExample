@@ -1,5 +1,5 @@
 *** Variables ***
-# Configuration
+# WEB VARIABLES
 ${URL} =                    https://www.saucedemo.com/
 ${BROWSER} =                chrome
 
@@ -12,3 +12,19 @@ ${BROWSER} =                chrome
 
 # Customer Data
 &{CUSTOMER1}                FirstName=Joulu     LastName=Pukki       Zip=99999
+
+
+# API VARIABLES
+${URL_API} =                    https://reqres.in/api
+${ALIAS} =                      reqres
+
+${API_USERS} =                  /users
+${API_USERS_2} =                /users/2
+${API_USERS_2_FIRSTNAME} =      Janet
+
+${API_USER_ADD} =               {"name": "Joulu Pukki", "movies": ["Die Hard", "Batman Returns"]}
+${API_USER_UPDATE} =            {"name": "Joulupukki Updated"}
+
+${STATUS_200} =                 200
+${STATUS_201} =                 201
+${STATUS_204} =                 204
