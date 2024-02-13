@@ -15,15 +15,16 @@ ${BROWSER} =                chrome
 
 
 # API VARIABLES
-${URL_API} =                https://reqres.in/api
-${ALIAS} =                  reqres
+${URL_API} =                    https://reqres.in/api
+${ALIAS} =                      reqres
 
-${USERS} =                  /users
-${USERS_2} =                /users/2
-${USERS_2_FIRSTNAME} =      Janet
+${API_USERS} =                  /users
+${API_USERS_2} =                /users/2
+${API_USERS_2_FIRSTNAME} =      Janet
 
-${STATUS_200} =             200
-${STATUS_201} =             201
+${API_USER_ADD} =               {"name": "Joulu Pukki", "movies": ["Die Hard", "Batman Returns"]}
+${API_USER_UPDATE} =            {"name": "Joulupukki Updated"}
 
-${CUSTOMER1_API} =          {"name": "Joulu Pukki", "movies": ["Die Hard", "Batman Returns"]}
-${CUSTOMER_UPDATE_API} =    {"name": "Joulupukki Updated"}
+${STATUS_200} =                 200
+${STATUS_201} =                 201
+${STATUS_204} =                 204

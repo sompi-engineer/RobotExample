@@ -11,6 +11,11 @@ Get list of users
     [Tags]                  API
     ReqresAPI.Get List Of Users
 
+Get second user information
+    [Documentation]         API returns second user information from the list and verifies user first name
+    [Tags]                  API
+    ReqresAPI.Get Second User Data
+
 Create a new user
     [Documentation]         Create a new user in the list
     [Tags]                  API
@@ -21,7 +26,7 @@ Update old user
     [Tags]                  API
     ReqresAPI.Update User
 
-Get second user information
-    [Documentation]         API returns second user information from the list
+Delete second user from the list
+    [Documentation]         Delete second user from the list
     [Tags]                  API
-    ReqresAPI.Get Second User Data
+    ReqresAPI.Delete Second User Data
