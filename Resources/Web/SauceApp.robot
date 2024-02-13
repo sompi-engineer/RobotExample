@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation               Keywords for SauceDemo web application
-Resource                    ../Data/InputData.robot
+Resource                    ../../Data/InputData.robot
 Resource                    ./PO/Login.robot
 Resource                    ./PO/Inventory.robot
 Resource                    ./PO/Cart.robot
