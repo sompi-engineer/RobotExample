@@ -1,12 +1,19 @@
 *** Settings ***
 Documentation               Keywords for Reqres API
 Resource                    ../../Data/InputData.robot
+Library                     ../../Data/CalcLibrary.py
 Library                     RequestsLibrary
+Library                     Collections
+
 
 *** Keywords ***
 Get List Of Users
     ${response} =                   Get on session      ${ALIAS}        ${API_USERS}
     Status should be                ${STATUS_200}
+    ${json} =                       Set variable        ${response.json()}
+    # Compare that the received json is similar to the original
+    ${original_json_dict}           evaluate            json.loads($API_USERS_LIST)    json
+    Dictionaries Should Be Equal    ${original_json_dict}    ${json}
 
 Create New User
     Post on session                 ${ALIAS}            ${API_USERS}        ${API_USER_ADD}
