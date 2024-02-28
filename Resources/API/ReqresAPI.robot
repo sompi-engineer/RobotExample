@@ -12,8 +12,8 @@ Get List Of Users
     Status should be                ${STATUS_200}
     ${json} =                       Set variable        ${response.json()}
     # Compare that the received json is similar to the original
-    ${original_json_dict}           evaluate            json.loads($API_USERS_LIST)    json
-    Dictionaries Should Be Equal    ${original_json_dict}    ${json}
+    ${original_json}                evaluate            json.loads($API_USERS_LIST)    json
+    Dictionaries Should Be Equal    ${original_json}    ${json}
 
 Create New User
     Post on session                 ${ALIAS}            ${API_USERS}        ${API_USER_ADD}
