@@ -3,6 +3,7 @@ Documentation               Keywords for Reqres API
 Resource                    ../../Data/InputData.robot
 Library                     RequestsLibrary
 Library                     Collections
+Library                     OperatingSystem
 
 
 *** Keywords ***
@@ -11,7 +12,8 @@ Get List Of Users
     Status should be                ${STATUS_200}
     ${json} =                       Set variable        ${response.json()}
     # Compare that the received json is similar to the original
-    ${original_json}                evaluate            json.loads($API_USERS_LIST)    json
+    ${external_json}                Get file            ${API_USERS_LIST_PATH}
+    ${original_json}                Evaluate            json.loads('''${external_json}''')    json
     Dictionaries Should Be Equal    ${original_json}    ${json}
 
 Create New User
