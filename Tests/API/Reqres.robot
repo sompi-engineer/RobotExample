@@ -1,9 +1,9 @@
 *** Settings ***
 Documentation               Example Robot Framework suite for automation tests against Reqres API
 Resource                    ../../Data/InputData.robot
-Resource                    ../../Resources/Common.robot
+Resource                    ../../Resources/CommonAPI.robot
 Resource                    ../../Resources/API/ReqresAPI.robot
-Suite Setup                 Common.Create Session API
+Suite Setup                 CommonAPI.Create Session API
 
 *** Test Cases ***
 Get list of users

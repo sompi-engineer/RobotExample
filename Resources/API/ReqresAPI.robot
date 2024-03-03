@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation               Keywords for Reqres API
 Resource                    ../../Data/InputData.robot
-Library                     ../../Data/CalcLibrary.py
 Library                     RequestsLibrary
 Library                     Collections
 

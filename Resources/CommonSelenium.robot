@@ -1,14 +1,13 @@
 *** Settings ***
 Documentation               Common keywords
 Resource                    ../Data/InputData.robot
-Resource                    ./Web/PO/Login.robot
-Resource                    ./Web/PO/Inventory.robot
+Resource                    ./WebSelenium/PO/Login.robot
+Resource                    ./WebSelenium/PO/Inventory.robot
 Library                     SeleniumLibrary
-Library                     RequestsLibrary
+
 
 
 *** Keywords ***
-# WEB APP COMMON
 Start Web Test
     #Set selenium speed                      0.2s      # Debug purpose
     Set selenium timeout                    10s
@@ -34,8 +33,3 @@ User Log In
 
 Stop Web Test
     Close all browsers
-
-
-# API COMMON
-Create Session API
-    Create session                          ${ALIAS}          ${URL_API}      verify=True

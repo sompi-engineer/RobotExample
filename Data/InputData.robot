@@ -2,6 +2,7 @@
 # WEB VARIABLES
 ${URL} =                        https://www.saucedemo.com/
 ${BROWSER} =                    chrome
+${BROWSER2} =                   chromium
 
 # Login Data
 &{USER}                         User=standard_user    Password=secret_sauce

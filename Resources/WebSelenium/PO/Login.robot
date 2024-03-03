@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation       Login page functionality
 Resource            ../../../Data/InputData.robot
-Resource            ../../Common.robot
+Resource            ../../CommonSelenium.robot
 Library             SeleniumLibrary
 
 

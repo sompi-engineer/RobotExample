@@ -1,10 +1,10 @@
 *** Settings ***
-Documentation               Example Robot Framework suite for automation tests against SauceDemo web page login
+Documentation               Example Robot Framework suite for automation tests against SauceDemo web page login using SeleniumLibrary
 Resource                    ../../Data/InputData.robot
-Resource                    ../../Resources/Common.robot
-Resource                    ../../Resources/Web/SauceApp.robot
-Test Setup                  Common.Start Web Test And Login
-Test Teardown               Common.Stop Web Test
+Resource                    ../../Resources/CommonSelenium.robot
+Resource                    ../../Resources/WebSelenium/SauceApp.robot
+Test Setup                  CommonSelenium.Start Web Test And Login
+Test Teardown               CommonSelenium.Stop Web Test
 
 # Run Tests
 # robot -d Results Tests/Sauce_Inventory.robot
