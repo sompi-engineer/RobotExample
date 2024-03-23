@@ -3,8 +3,8 @@ Tests are based on SauceLabs demo web page https://www.saucedemo.com and ReqRes 
 
 The Doc -folder contains an excel table in which the manual web test cases are defined and on which the automated web test cases are based.
 
-Check Robot Framework installation instructions from https://robotframework.org/
-Keyword documentation for libraries:
-https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
-https://marketsquare.github.io/robotframework-browser/Browser.html
-https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html
+Check Robot Framework installation instructions from https://robotframework.org/  
+Keyword documentation for libraries:  
+https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html  
+https://marketsquare.github.io/robotframework-browser/Browser.html  
+https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html  
