@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation               Common keywords
+Documentation               Common keywords for RequestsLibrary
 Resource                    ../Data/InputData.robot
 Library                     RequestsLibrary
 

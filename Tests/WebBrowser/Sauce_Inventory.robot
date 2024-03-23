@@ -7,7 +7,7 @@ Test Setup                  CommonBrowser.Start Web Test And Login
 Test Teardown               CommonBrowser.Stop Web Test
 
 # Run Tests
-# robot -d Results Tests/Sauce_Inventory.robot
+# robot -d Results Tests/WebBrowser/Sauce_Inventory.robot
 
 *** Test Cases ***
 

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation               Common keywords
+Documentation               Common keywords for BrowserLibrary
 Resource                    ../Data/InputData.robot
 Resource                    ./WebBrowser/PO/Login.robot
 Resource                    ./WebBrowser/PO/Inventory.robot

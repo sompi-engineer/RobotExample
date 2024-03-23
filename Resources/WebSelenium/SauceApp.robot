@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation               Keywords for SauceDemo web application
+Documentation               Keywords for SauceDemo web application for SeleniumLibrary
 Resource                    ../../Data/InputData.robot
 Resource                    ./PO/Login.robot
 Resource                    ./PO/Inventory.robot
