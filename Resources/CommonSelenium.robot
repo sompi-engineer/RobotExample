@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation               Common keywords
+Documentation               Common keywords for SeleniumLibrary
 Resource                    ../Data/InputData.robot
 Resource                    ./WebSelenium/PO/Login.robot
 Resource                    ./WebSelenium/PO/Inventory.robot

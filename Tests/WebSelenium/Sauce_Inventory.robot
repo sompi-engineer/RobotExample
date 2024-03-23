@@ -7,7 +7,7 @@ Test Setup                  CommonSelenium.Start Web Test And Login
 Test Teardown               CommonSelenium.Stop Web Test
 
 # Run Tests
-# robot -d Results Tests/Sauce_Inventory.robot
+# robot -d Results Tests/WebSelenium/Sauce_Inventory.robot
 
 *** Test Cases ***
 

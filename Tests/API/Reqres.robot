@@ -5,6 +5,9 @@ Resource                    ../../Resources/CommonAPI.robot
 Resource                    ../../Resources/API/ReqresAPI.robot
 Suite Setup                 CommonAPI.Create Session API
 
+# Run Tests
+# robot -d Results Tests/API/Reqres.robot
+
 *** Test Cases ***
 Get list of users
     [Documentation]         API returns list of all users
