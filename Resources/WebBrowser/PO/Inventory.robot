@@ -8,7 +8,7 @@ Library             ../../../Data/CalcLibrary.py
 *** Variables ***
 ${INVENTORY_NAVIGATION_ELEMENT} =               xpath=/*//span[text()='Products']
 ${INVENTORY_NAVIGATION_ELEMENT_TEXT} =          Products
-${INVENTORY_SORT_BY_LIST} =                     xpath=//*/select[@data-test="product_sort_container"]
+${INVENTORY_SORT_BY_LIST} =                     xpath=//*/select[@data-test="product-sort-container"]
 ${INVENTORY_SORT_LOHI} =                        lohi
 ${INVENTORY_SORT_HILO} =                        hilo
 ${INVENTORY_ITEM_PRICE} =                       xpath=/*//div[@class='inventory_item_price']
